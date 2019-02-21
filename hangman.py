@@ -7,5 +7,9 @@ def hang():
             gallows[i] += next(parts)
             yield '\n'.join(gallows)
     raise StopIteration
-    
-    pass
+
+
+words = ['the', 'be', 'and', 'of', 'it', 'I', 'that', 'for', 'you', 'he', 'with', 'on', 'do', 'say', 'this'
+         , 'they', 'at', 'but', 'his', 'from', 'that', 'not', 'by', 'she', 'or', 'as', 'what', 'go', 'their', 'can'
+         , 'who', 'get', 'if', 'would', 'her', 'all', 'father', 'sit', 'away', 'until', 'to', 'political', 'community',
+         'president']
